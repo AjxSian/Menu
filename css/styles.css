@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+/* Imágenes */
+img {
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* Formulario */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+/* Redes sociales */
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.social-links a.facebook {
+  background: #1877F2; /* Azul Facebook */
+}
+
+.social-links a.instagram {
+  background: #E4405F; /* Rosa Instagram */
+}
+
+.social-links a.tiktok {
+  background: #000000; /* Negro TikTok */
+}
+
+.social-links a:hover {
+  opacity: 0.8;
+}
